@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-example"
+version = "0.1.0"
+description = ""
+authors = ["Shahim Essaid <shahim@essaid.com>"]
+readme = "README.md"
+packages = [{include = "example", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tims-grpc = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

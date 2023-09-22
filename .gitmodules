@@ -1,0 +1,8 @@
+[submodule "jg-boot"]
+	path = jg-boot
+	url = https://github.com/ShahimEssaid/jg-boot.git
+	branch = main
+[submodule "jg-grpc"]
+	path = jg-grpc
+	url = https://github.com/ShahimEssaid/jg-grpc.git
+	branch = main
